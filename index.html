@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Style/Style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="Style/Owl-crousel.css">
+
+</head>
+
+<body onscroll="Abhishek()">
+
+    <div  class="first_navbar">
+
+        <div class="d-flex justify-content-between px-3 p-2">
+
+            <div class="d-flex gap-2">
+
+                <div class="lh-base">
+                    <i class='bx bx-help-circle'></i>
+                    <span> Ask a Question</span>
+                </div>
+
+                <div class="lh-base ">
+                    <i class='bx bx-envelope'></i>
+                    <span>Suport @website.com</span>
+                </div>
+
+            </div>
+
+            <div class="d-flex gap-2">
+                <div>India</div>
+                <div>Login</div>
+                <div>Register</div>
+            </div>
+
+        </div>
+
+       
+       <div class="d-flex justify-content-between px-3 p-2 top-navbar">
+
+    <div>
+        <ul class="Navbar">
+            <li>
+                <img class="hide-bg" src="./Images/Logo_2-removebg-preview.png" />
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Our Courses</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-google'></i>
+        <i class='bx bxl-linkedin'></i>
+        <i class='bx bx-search'></i>
+
+    </div>
+
+        </div>
+
+      
+
+    </div>
+
+    <!-- big crousel -->
+    <div id="hero-crousel" class="carousel slide parent">
+
+        <!-- <div class="first_navbar">
+
+            <div class="d-flex justify-content-between px-3 p-2">
+
+                <div class="d-flex gap-2">
+
+                    <div class="lh-base">
+                        <i class='bx bx-help-circle'></i>
+                        <span> Ask a Question</span>
+                    </div>
+
+                    <div class="lh-base ">
+                        <i class='bx bx-envelope'></i>
+                        <span>Suport @website.com</span>
+                    </div>
+
+                </div>
+
+                <div class="d-flex gap-2">
+                    <div>India</div>
+                    <div>Login</div>
+                    <div>Register</div>
+                </div>
+
+            </div>
+
+           
+           <div class="d-flex justify-content-between px-3 p-2 top-navbar ">
+
+        <div>
+            <ul class="Navbar">
+                <li>
+                    <img class="hide-bg" src="./Images/Logo_2-removebg-preview.png" />
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Our Courses</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-linkedin'></i>
+            <i class='bx bx-search'></i>
+
+        </div>
+
+            </div>
+
+          
+
+        </div> -->
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-crousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-crousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-crousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item-1">
+                <!-- <img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+                <!-- class="d-block w-100 c-img" alt="..."> -->
+                <div class="carousel-caption-custom d-none d-md-block">
+                    <div class="fs-6">Better Education for a Better</div>
+                    <div class="fs-1 fw-bold">welcome to School</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab nihil
+                        corrupti. Lorem ipsum dolor sit.
+                    </p>
+                    <div>
+                        <button class="btn contact-button">Contact Us</button>
+                        <button class="btn Read-button2 mx-2">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item c-item-2">
+                <!-- <img src="https://plus.unsplash.com/premium_photo-1664303228186-a61e7dc91597?q=80&w=1892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+                <!-- class="d-block w-100 c-img" alt="..."> -->
+                <div class="carousel-caption-custom d-none d-md-block">
+                    <div class="fs-6">Better Education for a Better</div>
+                    <div class="fs-1 fw-bold">welcome to School</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab nihil
+                        corrupti. Lorem ipsum dolor sit.
+                    </p>
+                    <div>
+                        <button class="btn contact-button">Contact Us</button>
+                        <button class="btn Read-button2 mx-2">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item c-item-3">
+                <!-- <img src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+                <!-- class="d-block w-100 c-img" alt="..."> -->
+                <div class="carousel-caption-custom d-none d-md-block">
+                    <div class="fs-6">Better Education for a Better</div>
+                    <div class="fs-1 fw-bold">welcome to School</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab nihil
+                        corrupti. Lorem ipsum dolor sit.
+                    </p>
+                    <div>
+                        <button class="btn contact-button">Contact Us</button>
+                        <button class="btn Read-button2 mx-2">Read More</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-crousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-crousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="d-flex justify-content-evenly  demo-child">
+            <div class="card m-3  simple_card position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card simple_card m-3 position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card simple_card m-3 position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- big crousel -->
+
+
+    <div style="height: 250px;">
+
+    </div>
+
+
+
+    <!-- owl crousel part -->
+
+    <div class="container-fluid ">
+        <div class="mt-3">
+            <div class="h3">
+                <span class="text-danger fw-bolder ">|</span>
+                <span class="fw-bold ">Popular</span>
+                <span class="fw-light"> Courses</span>
+            </div>
+            <div class="w-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme border-none">
+
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- owl crousel part -->
+
+    <!-- Blue area -->
+    <div class="text-center text-white lh-lg mb-5 bluearea" style="background:#482196;">
+        <h2>Online Course to Learn</h2>
+        <h5>Own your feature Learning new Skills Online</h5>
+        <div class="search">
+            <input class="" type="text" placeholder="Do you want to leart Today?" />
+            <button>Search</button>
+        </div>
+        <div class="col-12  row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="d-flex justify-content-evenly ">
+
+                    <div class="card millioncard bg-gradient">
+                        <h3>
+                            <i class='bx bx-user'></i>
+                            <span>5M</span>
+                        </h3>
+                        <div class="million-text">
+                            <span>Over 5 millon students</span>
+                        </div>
+                    </div>
+                    <div class="card millioncard bg-gradient">
+                        <h3>
+                            <i class='bx bx-user'></i>
+                            <span>5M</span>
+                        </h3>
+                        <div class="million-text">
+                            <span>Over 5 millon students</span>
+                        </div>
+                    </div>
+                    <div class="card millioncard bg-gradient">
+                        <h3>
+                            <i class='bx bx-user'></i>
+                            <span>5M</span>
+                        </h3>
+                        <div class="million-text">
+                            <span>Over 5 millon students</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+    </div>
+   
+
+    <div class="text-white lh-lg mb-5 " style="background:#482196;">
+        <div class="container-fluid pt-3">
+            <div class="mt-3">
+                <div class="h3">
+                    <span class="text-danger fw-bolder ">|</span>
+                    <span class="fw-bold ">What People</span>
+                    <span class="fw-light">Say</span>
+                </div>
+                <div class="w-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme border-none">
+    
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card m-3  position-relative ">
+                    <img src="Images/pic1.jpg" />
+                    <i class='bx bxl-redbubble'></i>
+                    <div class="p-3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn Read-button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid ">
+        <div class="mt-3">
+            <div class="h3">
+                <span class="text-danger fw-bolder ">|</span>
+                <span class="fw-bold ">Recent</span>
+                <span class="fw-light">News</span>
+            </div>
+            <div class="w-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus ut quod!
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel owl-theme border-none">
+
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card m-3  position-relative ">
+                <img src="Images/pic1.jpg" />
+                <i class='bx bxl-redbubble'></i>
+                <div class="p-3">
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed ut modi!
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn Read-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Counting Div -->
+    <!-- Counting Div -->
+    <!-- Blue area -->
+
+
+    <!-- footer -->
+    <div class="px-5 bg-black border footerbackground" >
+        <footer class="text-white row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+           <img class="img-fluid" style="border-radius: 50%;"  src="Images/Logo.png" width="100" />
+            <p class="mt-2 mx-3">© 2024</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    <!-- footer -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Include Owl Carousel JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+           function Abhishek() {
+        
+        var blue = document.querySelector('.first_navbar')
+        if (window.scrollY > 0) {
+              blue.classList.add('scrolled');
+          } else {
+              blue.classList.remove('scrolled');
+          }
+          console.log(blue);
+      }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                dot: true,
+                loop: true,
+                margin: 1,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 4
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        });
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

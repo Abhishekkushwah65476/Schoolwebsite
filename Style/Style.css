@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.Navbar{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #000; */
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hide-bg{
+   width: 250px;
+   filter: brightness(500%);
+   position: relative;
+   top: -7px;
+   
+}
+.parent{
+    position: relative;
+}
+
+
+/* Crousel */
+.c-item-1{
+    height: 100vh;
+    /* height: 90vh; */
+    background:  linear-gradient(rgba(0, 0, 0, 0.755),rgba(0, 0, 0, 0.743)),
+    url("../Images/pexels-iqwan-alif-1206101.jpg")
+    no-repeat
+    center
+    center / cover;
+}
+.c-item-2{
+    height: 100vh;
+    /* height: 90vh; */
+    background:  linear-gradient(rgba(0, 0, 0, 0.755),rgba(0, 0, 0, 0.743)),
+    url("../Images/pexels-oleksandr-p-2781814.jpg")
+    no-repeat
+    center
+    center / cover;
+}
+.c-item-3{
+    height: 100vh;
+    /* height: 90vh; */
+    background:  linear-gradient(rgba(0, 0, 0, 0.755),rgba(0, 0, 0, 0.743)),
+    url("../Images/pexels-this-is-zun-1164572.jpg")
+    no-repeat
+    center
+    center / cover;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.first_navbar{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    color: #fff;
+}
+
+.carousel-caption-custom{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Rubik", sans-serif; 
+}
+.contact-button{
+    outline: 0.5px solid #fff;
+    color: #fff;  
+}
+.contact-button:hover{
+    outline: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    font-weight: 400;
+}
+.Read-button{
+    outline: 0.5px solid #000;
+    color: #000;  
+}
+.Read-button2{
+    outline: 0.5px solid #fff;
+    color: #fff;  
+}
+
+.Read-button:hover{
+    outline: none;
+    background-color: purple;
+    color: #fff;
+    font-weight: 400;
+}
+.Read-button2:hover{
+    outline: none;
+    background-color: purple;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* Crousel */
+
+/* card */
+.card{
+    width: 18rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+.bxl-redbubble{
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* card */
+
+/* blue area */
+.bluearea{
+    height: 80vh;
+}
+.bluearea h2{
+    font-family: "Rubik", sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.bluearea h5{
+    font-family: "Rubik", sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.search{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.search input{
+    
+        width: 50%;
+        padding: 3px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        outline: none;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+    
+}
+.search button{
+    /* width: 5%; */
+    padding: 3px;
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    border: none;
+    margin: 0 5px;
+    outline: none;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    background-color: orange;
+    color: #000;
+    cursor: pointer;
+}
+
+/* million card */
+.millioncard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px 2px;
+    background: transparent;
+    color: #fff;
+   backdrop-filter: 10px;
+   margin: 20px 10px;
+}
+.millioncard h3{
+    font-size: 45px;
+}
+.million-text{
+    font-size: 14px;
+}
+.scrolled{
+    /* transition: 0.8s linear; */
+    background-color: #482196;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+/* million card */
+/* blue area */
+
+/* footer */
+.footerbackground{
+    background: linear-gradient(#00000071,#000000cc);
+}
+/* footer */
+/* sticky */
+.top-navbar{
+  /* position: fixed; */
+  
+}
+
+/* sticky */

@@ -1,0 +1,43 @@
+
+/* Add your custom styles here */
+.owl-carousel {
+  width: 100%;
+  margin: auto;
+}
+.owl-carousel img {
+  width: 100%;
+  height: auto;
+}
+.owl-dots{
+  display: none;
+}
+.owl-nav{
+  /* background-color: black; */
+  position: absolute;
+  top: -100px;
+  right: 25px;
+}
+.owl-prev{
+  span{
+ font-size: 60px;
+  }
+  
+}
+.owl-next{
+  span{
+      font-size: 60px;
+  /* background-color: aquamarine; */
+  }
+}
+.demo-child{
+    position: absolute;
+    width: 100%;
+    bottom: -230px;
+    z-index: 100;
+}
+.simple_card:hover{
+  transition: 0.3s all ease-in-out;
+  transform: translateY(-30px);
+  z-index: 99;
+}
+
